@@ -62,7 +62,7 @@ body {
 #intro {
   color: #fff;
   text-align: center;
-  background-image: url('/assets/image/banner.jpg');
+  background-image: url('../image/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ body {
   margin-bottom: 10px;
 }
 .title-list-post .title-post:hover {
-  font-size: 32px;
+  color: salmon;
 }
 .title-list-post .main-post {
   margin-bottom: 20px;
@@ -164,6 +164,9 @@ body {
 }
 #new-post ul li a {
   color: #333;
+}
+#new-post ul li a:hover {
+  color: salmon;
 }
 
 #storage h1 {
